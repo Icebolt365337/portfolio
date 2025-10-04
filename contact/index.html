@@ -15,7 +15,9 @@
     <h1>Contact</h1>
 </head>
 <body>
-<form action=mailto:ulingampalli@ucsd.edu enctype="text/plain" autocomplete="off">
+<!--Took out method="post" because Firefox kept force filling subject line with
+something else, and putting all inputs in the body this works though-->
+<form action=mailto:ulingampalli@ucsd.edu enctype="text/plain" autocomplete="off" target="_blank">
     <label>Email: </label>
     <input name="email" type="email" value="ulingampalli@ucsd.edu" autocomplete="off"/>
     <label>Subject: </label>
