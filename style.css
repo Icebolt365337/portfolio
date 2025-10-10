@@ -33,6 +33,20 @@ nav {
         }
     }
 }
+head {
+    div.projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+        article {
+            grid-template-rows: subgrid;
+            grid-row: span 3;
+            gap: 1em;
+            h2 {
+                margin: 0;
+            }
+        }
+    }
+}
 body {
     /* Set line height to 1.5 times the font size
 	   and use the OS’s UI font as the website font
