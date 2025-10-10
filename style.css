@@ -33,7 +33,14 @@ nav {
         }
     }
 }
-head {
+body {
+    /* Set line height to 1.5 times the font size
+	   and use the OS’s UI font as the website font
+	*/
+    font: 100%/1.5 system-ui;
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 40px;
     div.projects {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
@@ -46,15 +53,6 @@ head {
             }
         }
     }
-}
-body {
-    /* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	*/
-    font: 100%/1.5 system-ui;
-    max-width: 1000px;
-    margin-inline: auto;
-    padding: 40px;
     form {
         display: grid;
         grid-template-columns: auto 1fr;
