@@ -34,20 +34,20 @@ nav {
     }
 }
 body {
-  /* Set line height to 1.5 times the font size
+    /* Set line height to 1.5 times the font size
 	   and use the OS’s UI font as the website font
-	 */
-  font: 100%/1.5 system-ui;
-  max-width: 1000px;
-  margin-inline: auto;
-  padding: 40px;
-}
-form {
-    font: inherit;
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    label {
-        margin-block: 40px;
+	*/
+    font: 100%/1.5 system-ui;
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 40px;
+    form {
+        font: inherit;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        label {
+            margin-block: 40px;
+        }
     }
 }
