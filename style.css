@@ -1,3 +1,11 @@
+nav {
+    ul {
+        display: contents;
+        li {
+            display: contents;
+        }
+    }
+}
 body {
   /* Set line height to 1.5 times the font size
 	   and use the OS’s UI font as the website font
@@ -5,5 +13,5 @@ body {
   font: 100%/1.5 system-ui;
   max-width: 1000px;
   margin-inline: auto;
-  padding: 100px;
+  padding: 40px;
 }
