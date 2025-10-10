@@ -1,3 +1,7 @@
+:root {
+    --color-accent: oklch(47.32% 0.13582 253.145);
+    accent-color: var(--color-accent)
+}
 nav {
     display: flex;
     margin-bottom: 40px;
@@ -15,6 +19,12 @@ nav {
         padding-bottom: 0.25em;
         border-bottom-width: 0.4em;
         border-bottom-style: solid;
+    }
+    a:hover {
+        padding-bottom: 0.25em;
+        border-bottom-width: 0.4em;
+        border-bottom-style: solid;
+        border-bottom-color: var(--color-accent);
     }
     ul {
         display: contents;
