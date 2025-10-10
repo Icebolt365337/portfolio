@@ -1,23 +1,51 @@
 nav {
     display: flex;
+    margin-bottom: 40px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: oklch(80% 3% 200);
     ul {
         display: contents;
         li {
             display: contents;
             a {
                 flex: 1;
+                text-decoration: none;
+                color: inherit;
+                text-align: center;
+                padding: 0.5em;
             }
             a {
                 flex: 1;
+                text-decoration: none;
+                color: inherit;
+                text-align: center;
+                padding: 0.5em;
             }
             a {
                 flex: 1;
+                text-decoration: none;
+                color: inherit;
+                text-align: center;
+                padding: 0.5em;
             }
             a  {
                 flex: 1;
+                text-decoration: none;
+                color: inherit;
+                text-align: center;
+                padding: 0.5em;
             }
             a {
                 flex: 1;
+                text-decoration: none;
+                color: inherit;
+                text-align: center;
+                padding: 0.5em;
+            }
+            current {
+                border-bottom-width: 0.4em;
+                padding: 0.25em;
             }
         }
     }
