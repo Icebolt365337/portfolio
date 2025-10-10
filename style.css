@@ -42,13 +42,15 @@ body {
     margin-inline: auto;
     padding: 40px;
     form {
-        font: inherit;
-        display: block;
-        width: 100%;
-        box-sizing: border-box;
+        input {
+            font: inherit;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
         label {
             display: block;
-            margin-block: 40px;
+            margin-block: 20px;
         }
     }
 }
