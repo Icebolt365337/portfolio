@@ -43,14 +43,11 @@ body {
     padding: 40px;
     div.projects {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+        gap: 1em;
         article {
             grid-template-rows: subgrid;
             grid-row: span 3;
-            gap: 1em;
-            h2 {
-                margin: 0;
-            }
         }
     }
     form {
