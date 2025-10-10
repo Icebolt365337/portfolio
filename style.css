@@ -45,16 +45,8 @@ body {
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 1em;
-        label {
-            display: grid;
-            grid-template-columns: subgrid;
-        }
-        input {
-            grid-column: 1 / -1;
-        }
-        textarea {
-            grid-column: 1 / -1;
-        }
+        /*I did not seem to have the intended grid mistake in the lab, this
+        displays properly for me*/
         button {
             grid-column: 1 / -1;
         }
