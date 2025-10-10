@@ -1,7 +1,9 @@
 nav {
+    display: flex;
     ul {
         display: contents;
         li {
+            flex: 1;
             display: contents;
         }
     }
