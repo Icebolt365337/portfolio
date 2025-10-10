@@ -38,6 +38,11 @@ body {
 	   and use the OS’s UI font as the website font
 	*/
     font: 100%/1.5 system-ui;
+    h1 {
+        font: 400%/1.5 system-ui;
+    }
+    line-height: 1.1;
+    text-wrap: balance;
     max-width: 1000px;
     margin-inline: auto;
     padding: 40px;
@@ -46,6 +51,7 @@ body {
         grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
         gap: 1em;
         article {
+            display: grid;
             grid-template-rows: subgrid;
             grid-row: span 3;
         }
