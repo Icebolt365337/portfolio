@@ -42,3 +42,6 @@ body {
   margin-inline: auto;
   padding: 40px;
 }
+form {
+    font: inherit;
+}
