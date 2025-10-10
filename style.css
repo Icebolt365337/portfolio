@@ -3,8 +3,22 @@ nav {
     ul {
         display: contents;
         li {
-            flex: 1;
             display: contents;
+            a {
+                flex: 1;
+            }
+            a {
+                flex: 1;
+            }
+            a {
+                flex: 1;
+            }
+            a  {
+                flex: 1;
+            }
+            a {
+                flex: 1;
+            }
         }
     }
 }
