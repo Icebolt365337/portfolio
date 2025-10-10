@@ -47,6 +47,7 @@ body {
         width: 100%;
         box-sizing: border-box;
         label {
+            display: block;
             margin-block: 40px;
         }
     }
