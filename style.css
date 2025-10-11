@@ -56,6 +56,7 @@ body {
     }
     body.resume {
         display: grid;
+        text-align: center;
     }
     div.projects {
         display: grid;
