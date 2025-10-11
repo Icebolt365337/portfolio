@@ -46,6 +46,10 @@ body {
     max-width: 1000px;
     margin-inline: auto;
     padding: 40px;
+    h1.resume {
+        border-bottom-width: 0.4em;
+        border-bottom-style: solid;
+    }
     div.projects {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
