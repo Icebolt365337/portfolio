@@ -54,6 +54,12 @@ body {
         border-bottom-width: 0.1em;
         border-bottom-style: solid;
     }
+    h3.resume {
+        text-align: center;
+    }
+    p.resume {
+        text-align: center;
+    }
     div.projects {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
