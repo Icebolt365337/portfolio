@@ -54,10 +54,6 @@ body {
         border-bottom-width: 0.1em;
         border-bottom-style: solid;
     }
-    body.resume {
-        display: grid;
-        text-align: center;
-    }
     div.projects {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
