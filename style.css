@@ -53,11 +53,9 @@ body {
     h2.resume {
         border-bottom-width: 0.1em;
         border-bottom-style: solid;
-    }
-    h3.resume {
         text-align: center;
     }
-    p.resume {
+    h3.resume {
         text-align: center;
     }
     div.projects {
