@@ -2,7 +2,13 @@
     --color-accent: oklch(47.32% 0.13582 253.145);
     accent-color: var(--color-accent)
 }
-
+label.color_scheme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-family: inherit;
+    font-size: 80%/1.5 system-ui;
+}
 nav {
     color-scheme: dark;
     display: flex;
