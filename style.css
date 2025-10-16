@@ -4,6 +4,7 @@
 }
 
 nav {
+    color-scheme: dark;
     display: flex;
     margin-bottom: 40px;
     border-bottom-width: 1px;
@@ -11,7 +12,6 @@ nav {
     border-bottom-color: oklch(80% 3% 200);
     --border-color: oklch(50% 10% 200 / 40%);
     border-bottom-color: var(--border-color);
-    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
     a {
         flex: 1;
         text-decoration: none;

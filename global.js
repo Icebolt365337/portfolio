@@ -34,3 +34,16 @@ for (let p of pages) {
     a.target = "_blank";
   }
 }
+
+document.body.insertAdjacentHTML(
+  'afterbegin',
+  `
+	<label class="color-scheme">
+		Theme:
+		<select>
+			<option>light dark</option>
+            <option>light</option>
+            <option>dark</option>
+		</select>
+	</label>`,
+);
