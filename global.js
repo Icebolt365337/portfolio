@@ -85,3 +85,9 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
     `;
     containerElement.appendChild(article);
 }
+
+const projectsTitleElement = document.querySelector('.projects-title');
+const projectCount = projects.length;
+if (projectsTitleElement) {
+    projectsTitleElement.textContent = `${projectCount} Projects`;
+}
