@@ -6,7 +6,11 @@
     <title>Uday Lingampalli: Personal site and portfolio</title>
     <h1>Uday Lingampalli</h1>
     <p>Hi! My name is Uday Lingampalli. I am currently doing a major in Data Science with a minor in Cognitive Science. In my free time, I like playing video games and browsing Youtube.
-        The most interesting thing I learned from this lab was how to store page data (like color schemes) across reloads.
+        The most interesting thing I learned from this lab was loading data from an external json file, which makes editing site data much easier.
+
+        To answer the Think About It question: Why is it important to clear the container before adding new elements? What would happen if you skipped this step?
+        It is important to clear the container, so duplicate items don't accidentally get printed between reloads, and to make sure the information is updated properly. If the container wasn't cleared and the user reloaded the site,
+        content may not update properly, or if it did, append in addition to what was already there as a duplicate.
     </p>
     <img 
     class="fit-picture"
@@ -18,6 +22,9 @@
     <h2>Latest Projects</h2>
     <div class="projects">
         <!-- Dynamically added content will appear here -->
+    </div>
+    <div id="profile-stats">
+        <h2>Github Stats</h2>
     </div>
     <script type="module" src="./global.js"></script>
     <script src="index.js" type="module" defer></script>

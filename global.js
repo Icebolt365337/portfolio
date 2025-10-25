@@ -92,3 +92,7 @@ export function renderProjects(project, containerElement, headingLevel = 'h3') {
         projectsTitleElement.textContent = `${projectCount} Projects`;
     }
 }
+
+export async function fetchGitHubData(username) {
+    return fetchJSON(`https://api.github.com/users/${username}`);
+}
