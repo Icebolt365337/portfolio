@@ -95,8 +95,10 @@ body {
         overflow: visible;
     }
     #swatch {
+        display: inline-flex;
         width: 10em;
         aspect-ratio: 1;
         background-color: var(--color);
+        border-radius: 50%;
     }
 }
