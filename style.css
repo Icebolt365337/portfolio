@@ -97,5 +97,6 @@ body {
     #swatch {
         width: 10em;
         aspect-ratio: 1;
+        background-color: var(--color);
     }
 }
