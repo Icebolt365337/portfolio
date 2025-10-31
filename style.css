@@ -96,7 +96,7 @@ body {
     }
     span.swatch {
         display: inline-flex;
-        width: 10em;
+        width: 1em;
         aspect-ratio: 1;
         background-color: var(--color);
         border-radius: 50%;
