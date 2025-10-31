@@ -88,6 +88,9 @@ body {
             grid-column: 1 / -1;
         }
     }
+    div.containter {
+        display: flex;
+    }
     #projects-pie-plot {
         max-width: 20em;
         margin-block: 2em;
@@ -100,5 +103,6 @@ body {
         aspect-ratio: 1;
         background-color: var(--color);
         border-radius: 50%;
+        flex: 1;
     }
 }
