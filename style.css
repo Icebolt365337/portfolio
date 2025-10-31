@@ -94,7 +94,7 @@ body {
 
         overflow: visible;
     }
-    #swatch {
+    span.swatch {
         display: inline-flex;
         width: 10em;
         aspect-ratio: 1;
