@@ -92,7 +92,7 @@ body {
         display: flex;
     }
     #projects-pie-plot {
-        max-width: 10em;
+        max-width: 20em;
         margin-block: 2em;
 
         overflow: visible;
