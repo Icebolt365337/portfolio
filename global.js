@@ -83,6 +83,7 @@ export function renderProjects(project, containerElement, headingLevel = 'h3') {
             <${headingLevel}>${item.title}</${headingLevel}>
             <img src="${item.image}" alt="${item.title}">
             <p>${item.description}</p>
+            <p>${item.year}</p>
         `;
         containerElement.appendChild(article);
     });
