@@ -94,4 +94,8 @@ body {
 
         overflow: visible;
     }
+    #swatch {
+        width: 10em;
+        aspect-ratio: 1;
+    }
 }
