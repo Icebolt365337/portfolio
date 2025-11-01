@@ -85,7 +85,7 @@ searchInput.addEventListener('keydown', (event) => {
   query = event.target.value;
   let filteredProjects = projects.filter((project) => {
     let values = Object.values(project).join('\n').toLowerCase();
-    if (project.year == '') {
+    if (year == '') {
         return values.includes(query.toLowerCase());
     }
     else {
