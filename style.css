@@ -118,4 +118,21 @@ body {
         border-radius: 50%;
         flex: 1;
     }
+    #stats, #profile-stats {
+        dl {
+            display: grid;
+            grid-template-columns: max-content auto; 
+            gap: 4px 16px;
+        }
+
+        dt {
+            font-weight: bold;
+            grid-column: 1;
+        }
+
+        dd {
+            margin: 0;
+            grid-column: 2;
+        }
+    }
 }
