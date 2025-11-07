@@ -135,4 +135,8 @@ body {
             grid-column: 2;
         }
     }
+
+    .gridlines {
+        opacity: 0.1;
+    }
 }
