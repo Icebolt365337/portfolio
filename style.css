@@ -139,4 +139,39 @@ body {
     .gridlines {
         opacity: 0.1;
     }
+
+    circle {
+        transition: 200ms;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    circle:hover {
+        transform: scale(1.5);
+    }
+
+    dl.info {
+        display: grid;
+        margin: 0;
+        transition-duration: 500ms;
+        transition-property: opacity, visibility;
+    }
+
+    dl.info[hidden]:not(:hover, :focus-within) {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tooltip {
+        position: fixed;
+        top: 1em;
+        left: 1em;
+        background-color: greybox;
+        box-shadow: 2px 2px 2.5px;
+        border-radius: 4px;
+    }
+    
+    circle.selected {
+        fill: #ff6b6b;
+    }
 }
