@@ -26,14 +26,14 @@
 	{
 		"title": "Consequuntur autem eos facere.",
         "year": 2023,
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"image": "../images/bikes.png",
 		"description": "Laborum alias ea unde harum aspernatur? Molestiae, veritatis, possimus, numquam ex excepturi quod ducimus sit odit optio quibusdam sequi aliquid itaque tempore perspiciatis placeat expedita vero voluptates. Sit, aspernatur sint!"
 	},
 	{
-		"title": "Quos sint quaerat omnis?",
+		"title": "Bike Route Tracking",
         "year": 2025,
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Est neque, velit nam rerum error odio voluptates voluptatem magnam laboriosam ad? Doloribus, id et itaque unde porro totam ullam quaerat blanditiis odit animi eveniet aut, voluptate velit iure odio."
+		"description": "Geomap that tracks bike routes in Boston and Cambridge across a temporal scale, along with bike stations highlighted by activity and type of activity."
 	},
 	{
 		"title": "Iste ipsam magni fuga!",
