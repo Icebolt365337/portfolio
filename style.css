@@ -144,6 +144,9 @@ body {
         transition: 200ms;
         transform-origin: center;
         transform-box: fill-box;
+        @starting-style {
+            r: 0;
+        }
     }
 
     circle:hover {
@@ -174,4 +177,70 @@ body {
     circle.selected {
         fill: #ff6b6b;
     }
+
+    #commit-stats {
+        flex: 1;
+        align-items: baseline;
+    }
+
+    #files {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+
+        > div {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: subgrid;
+        }
+
+        dt {
+            grid-column: 1;
+        }
+
+        dd {
+            grid-column: 2;
+        }
+    }
+
+    .loc {
+        display: flex;
+        width: 0.5em;
+        aspect-ratio: 1;
+        background: var(--color);
+        border-radius: 50%;
+    }
+
+    dd {
+            grid-column: 2;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: start;
+            align-content: start;
+            gap: 0.15em;
+            padding-top: 0.6em;
+            margin-left: 0;
+    }
+
+    #scrolly-1 {
+        position: relative;
+        display: flex;
+        gap: 1rem;
+
+        > * {
+            flex: 1;
+        }
+    }
+
+    #scatter-story {
+        position: relative;
+    }
+
+    #scatter-plot {
+        position: sticky;
+        top: 0;
+        left: 0;
+        bottom: auto;
+        height: 50vh;
+    }
+
 }
